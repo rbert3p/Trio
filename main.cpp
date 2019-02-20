@@ -35,9 +35,9 @@ void sortDescending(int first, int second, int third)
   }
 }
 
-void swap(int &first, int &second)
+void swap(int &a, int &b)
 {
-  int temp = first;
-  first = second;
-  second = temp;
+  int temp = a;
+  a = b;
+  b = temp;
 }
