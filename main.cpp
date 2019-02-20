@@ -36,10 +36,9 @@ void sortDescending(int &first, int &second, int &third)
   }
 }
 
-//Pass by reference again to swap the order of two numbers
 void swap(int &first, int &second)
 {
-  int temp = first;
-  first = second;
-  second = temp;
+  int temp = a;
+  a = b;
+  b = temp;
 }
